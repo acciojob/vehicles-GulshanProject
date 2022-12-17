@@ -2,9 +2,9 @@ package com.driver;
 
 public class F1 extends Car {
 
-   // public F1 {
+   public F1 {
 
-   // }
+   }
     public F1(String name, boolean isManual) {
         super(name,4,2,6,isManual,"modern",2);
         //Use arbitrary values for parameters which are not mentioned
@@ -27,8 +27,6 @@ public class F1 extends Car {
             //Stop the car, set gear as 1
             stop();
             setCurrentGear(1);
-
-
         }
         //for all other cases, change the gear accordingly
 
