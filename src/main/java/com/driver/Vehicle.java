@@ -6,13 +6,13 @@ public class Vehicle {
     private int currentSpeed;
     private int currentDirection;
 
-    public Vehicle{
+   // public Vehicle{
 
-    }
+   // }
     public Vehicle(String name) {
             this.name= name;        // me
-        currentSpeed=0;        //me
-        currentDirection=0;     //me
+        this.currentSpeed=0;        //me
+        this.currentDirection=0;     //me
     }
 
     public String getName() {
@@ -52,7 +52,7 @@ public class Vehicle {
     }
 
     public void stop(){
-          currentSpeed==0; //me
+          this.currentSpeed==0; //me
               System.out.println("stop method called - The vehicle is stopped");
 
 
